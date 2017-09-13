@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\Desktop\SelectPic\picselect\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="03ee3f4ad381d1b285820fcf74e9f5e0632953f7">
+        <dex dex="C:\Users\Administrator\Desktop\SelectPic\app\build\intermediates\pre-dexed\debug\classes_365a0d3e1e6a1acb2fb9f6b192b4657de4fd94a7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\android_studio\cache\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\3.7.0\9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4\glide-3.7.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="C:\Users\Administrator\Desktop\SelectPic\app\build\intermediates\pre-dexed\debug\glide-3.7.0_5935d4b0b1918d12cf4f3208bce06fdce18d9464.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\android5\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="C:\Users\Administrator\Desktop\SelectPic\app\build\intermediates\pre-dexed\debug\constraint-layout-solver-1.0.2_e38018519a0e6b434d929447638724e89dee8370.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\android5\sdk\.android\build-cache\990a721dff1ec2b0d8f078ccbe977308bc827b08\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="C:\Users\Administrator\Desktop\SelectPic\app\build\intermediates\pre-dexed\debug\classes_a1ea7088c41429c451c8bb7352260f5eea9b1255.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,91 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/black">
+
+    <!--<com.wiseljz.wlibrary.view.HackyViewPager-->
+        <!--android:id="@+id/wl_lib_vp"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--/>-->
+    <top.cusoon.picselect.album.WiewPager
+    android:id="@+id/wl_lib_vp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    />
+
+<RelativeLayout
+    android:id="@+id/wl_lib_top_bar"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/wl_lib_bar_height"
+    android:background="@color/colorPrimary"
+    android:visibility="invisible"
+    >
+
+    <ImageButton
+        android:id="@+id/wl_lib_ib_back"
+        android:layout_width="@dimen/wl_lib_bar_height"
+        android:layout_height="match_parent"
+        android:background="@drawable/wl_lib_ic_back"
+        android:contentDescription="@null"/>
+
+    <TextView
+        android:id="@+id/wl_lib_tv_indicate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/wl_lib_ib_back"
+        android:textColor="@android:color/white"
+        android:textSize="15sp"
+        />
+
+    <Button
+        android:id="@+id/wl_lib_btn_complete"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/wl_lib_bar_height"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@null"
+        android:gravity="center"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:textColor="@color/wl_lib_x_text_complete_slc"
+        android:textSize="15sp"/>
+</RelativeLayout>
+
+<RelativeLayout
+    android:id="@+id/wl_lib_bottom_bar"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/wl_lib_bar_height"
+    android:layout_alignParentBottom="true"
+    android:background="@color/colorPrimary"
+    >
+
+    <RelativeLayout
+        android:id="@+id/wl_lib_vg_chose"
+        android:layout_width="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/wl_lib_iv_check"
+            android:layout_width="@dimen/wl_lib_bar_height"
+            android:layout_height="@dimen/wl_lib_bar_height"
+            android:src="@drawable/wl_lib_x_pic_slc"
+            android:adjustViewBounds="true"
+            android:padding="10dp"
+            />
+
+        <TextView
+            android:id="@+id/wl_lib_tv_chose"
+            android:layout_toRightOf="@+id/wl_lib_iv_check"
+            android:layout_width="wrap_content"
+            android:text="选择"
+            android:layout_centerVertical="true"
+            android:textColor="@android:color/white"
+            android:layout_marginRight="15dp"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+</RelativeLayout>
+
+</RelativeLayout>

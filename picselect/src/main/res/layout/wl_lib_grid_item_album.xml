@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<top.cusoon.picselect.view.SquareLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <ImageView
+        android:id="@+id/wl_lib_iv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/wl_lib_p_no_pic" />
+
+    <View
+        android:id="@+id/wl_lib_v_shadow"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#99000000"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/wl_lib_iv_slc"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/wl_lib_x_pic_slc"
+        android:visibility="gone" />
+
+</top.cusoon.picselect.view.SquareLayout>

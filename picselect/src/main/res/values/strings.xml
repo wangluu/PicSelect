@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">PicSelect</string>
+
+    <string name="wl_lib_max_count_alert">您最多只能选择%s张图片</string>
+    <string name="wl_lib_complete">完成</string>
+    <string name="wl_lib_complete_count">完成(%1$d/%2$d)</string>
+    <string name="wl_lib_preview">预览</string>
+    <string name="wl_lib_preview_count">预览(%1$d/%2$d)</string>
+    <string name="wl_lib_indicate">%1$d/%2$d</string>
+    <string name="wl_lib_pic_count">%1$d张</string>
+</resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/black"
+                android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/wl_lib_top_bar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/wl_lib_bar_height"
+        android:background="@color/colorPrimary" >
+
+        <ImageButton
+            android:id="@+id/wl_lib_ib_back"
+            android:layout_width="@dimen/wl_lib_bar_height"
+            android:layout_height="match_parent"
+            android:background="@drawable/wl_lib_ic_back"
+            android:contentDescription="@null" />
+
+        <TextView
+            android:id="@+id/wl_lib_tv_top_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:maxEms="15"
+            android:singleLine="true"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <!--<android.support.v4.view.ViewPager-->
+        <!--android:id="@+id/wl_lib_vp_images"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_below="@id/wl_lib_top_bar" >-->
+    <!--</android.support.v4.view.ViewPager>-->
+    <top.cusoon.picselect.album.WiewPager
+        android:id="@+id/wl_lib_vp_images"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/wl_lib_top_bar" >
+    </top.cusoon.picselect.album.WiewPager>
+
+    <TextView
+        android:id="@+id/wl_lib_tv_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:paddingBottom="30dp"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>
